@@ -27,7 +27,7 @@ Here is the first java program-[*Hello World*](https://github.com/Starcode71Ooze
 ### OOP Concept:
 Java is an object oriented programming language.The main aim of OOP is to bind together the data and the functions that operate so that no other part of the code can access this data except that function.
 <dd>OOPs Concept INCLUDES: </dd>
-1)<B>Polymorphism-</B> Way to differentiate between entities with the same name efficiently.
+1)<B>Polymorphism-</B> Way to differentiate between entities with the same name efficiently.For example:[here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/polymorphism.java) 
 
 2)<B> Inheritance-</B> Mechanism by which one class can inherit the features of another class.
 
