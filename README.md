@@ -35,20 +35,20 @@ For example:[here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/polymo
 
 3)<B> Object-</B> It the most basic unit of OOPs.An object consists of : 
  
- STATE: It is represented by attributes of an object. It also reflects the properties of an object.
+ - STATE: It is represented by attributes of an object. It also reflects the properties of an object.
  
- BEHAVIOUR : It is represented by methods of an object. It also reflects the response of an object with other objects.
+ - BEHAVIOUR : It is represented by methods of an object. It also reflects the response of an object with other objects.
  
- IDENTITY: It gives a unique name to an object and enables one object to interact with other objects.
+ - IDENTITY: It gives a unique name to an object and enables one object to interact with other objects.
 
 4)<B>Classes-</B>Class is a user defined blueprint or prototype from which objects are created.It shows the set of properties that are common to all objects of same type. In general, class declarations includes:
 MODIFIERS : A class can be public or has default access.
 
-CLASS NAME: The name should begin with a letter <B>(capitalized by convention).</B>
+- CLASS NAME: The name should begin with a letter <B>(capitalized by convention).</B>
 
-SUPER CLASS: The name of the class’s parent (superclass),preceded by the keyword extends.
+- SUPER CLASS: The name of the class’s parent (superclass),preceded by the keyword extends.
 
-BODY: The class body surrounded by braces, { }.
+- BODY: The class body surrounded by braces, { }.
 
 
 
