@@ -29,7 +29,7 @@ Java is an object oriented programming language.The main aim of OOP is to bind t
 <dd>OOPs Concept INCLUDES: </dd>
 1)<B>Polymorphism-</B> Way to differentiate between entities with the same name efficiently.
 
-For example:[here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/polymorphism.java)
+  For example:[here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/polymorphism.java)
 
 2)<B> Inheritance-</B> Mechanism by which one class can inherit the features of another class.
 
@@ -40,6 +40,7 @@ For example:[here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/polymo
  - BEHAVIOUR : It is represented by methods of an object. It also reflects the response of an object with other objects.
  
  - IDENTITY: It gives a unique name to an object and enables one object to interact with other objects.
+ 
  A simple program to explain the concept of object can be found [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Object.java).
 
 4)<B>Classes-</B>Class is a user defined blueprint or prototype from which objects are created.It shows the set of properties that are common to all objects of same type. In general, class declarations includes:
@@ -50,7 +51,8 @@ MODIFIERS : A class can be public or has default access.
 - SUPER CLASS: The name of the class’s parent (superclass),preceded by the keyword extends.
 
 - BODY: The class body surrounded by braces, { }.
-A simple program to explain the concept of classes can be found [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class.java).
+ 
+ A simple program to explain the concept of classes can be found [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class.java).
 
 #### NOTE: When class is defined, only the specification for the object is defined; no memory or storage is allocated.To access members defined within the class, you need to create objects.
 
