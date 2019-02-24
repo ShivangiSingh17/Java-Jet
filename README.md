@@ -14,7 +14,7 @@ Here `int` is data type ,`cost` is variable name and `20` is value.
 ### Java Identifiers:
 In Java, an identifier can be a class name, method name, variable name or a label.There are certain rules to define java identifiers:
 
-1. Only alphanumeric characters are allowed as identifiers i.e. [A-Z],[a-z],[0-9] and '$','_'.
+1. Only alphanumeric characters are allowed as identifiers i.e. [A-Z], [a-z], [0-9] and '$', '_'.
 
 1. Identifiers should not start with digit[0-9].
 
@@ -40,6 +40,7 @@ For example:[here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/polymo
  - BEHAVIOUR : It is represented by methods of an object. It also reflects the response of an object with other objects.
  
  - IDENTITY: It gives a unique name to an object and enables one object to interact with other objects.
+ A simple program to explain the concept of object can be found [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Object.java).
 
 4)<B>Classes-</B>Class is a user defined blueprint or prototype from which objects are created.It shows the set of properties that are common to all objects of same type. In general, class declarations includes:
 MODIFIERS : A class can be public or has default access.
@@ -49,6 +50,8 @@ MODIFIERS : A class can be public or has default access.
 - SUPER CLASS: The name of the class’s parent (superclass),preceded by the keyword extends.
 
 - BODY: The class body surrounded by braces, { }.
+A simple program to explain the concept of classes can be found [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class.java).
+
 #### NOTE: When class is defined, only the specification for the object is defined; no memory or storage is allocated.To access members defined within the class, you need to create objects.
 
 
