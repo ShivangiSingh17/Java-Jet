@@ -1,3 +1,4 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/Starcode71Ooze/JAVA-JET.svg?color=light%20green)  ![Github coverage](https://img.shields.io/badge/Java-100%25-blue.svg)
 # Java
 Java is one of the most popular and widely used programming language and platform.It is fast, reliable and secure.Also java is *object-oriented programming* language.Java is *statically type language* (because the type of data is predefined as part of the programming language and all constants or variables are defined for a given program).
 ### Data Types:
@@ -44,7 +45,8 @@ Java is an object oriented programming language.The main aim of OOP is to bind t
  A simple program to explain the concept of object can be found [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Object.java).
 
 4)<B>Classes-</B>Class is a user defined blueprint or prototype from which objects are created.It shows the set of properties that are common to all objects of same type. In general, class declarations includes:
-MODIFIERS : A class can be public or has default access.
+
+- MODIFIERS : A class can be public or has default access.
 
 - CLASS NAME: The name should begin with a letter <B>(capitalized by convention).</B>
 
