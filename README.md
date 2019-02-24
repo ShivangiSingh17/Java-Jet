@@ -6,7 +6,7 @@ They are basically of two types:
 2) Object data type
 
 Primitive consists of boolean,byte,char,short,int,long,float,double.Whereas Object consists of programmer created types.
-### Variabless in Java:
+### Variables in Java:
 A variable is the name given to a memory location. It is the basic unit of storage in a program.
 For declaring a variable it includes data type,variable name and value.
 For Eg. `int cost = 20;`
@@ -49,9 +49,7 @@ MODIFIERS : A class can be public or has default access.
 - SUPER CLASS: The name of the class’s parent (superclass),preceded by the keyword extends.
 
 - BODY: The class body surrounded by braces, { }.
-
-
-
+#### NOTE: When class is defined, only the specification for the object is defined; no memory or storage is allocated.To access members defined within the class, you need to create objects.
 
 
 
