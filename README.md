@@ -1,4 +1,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Starcode71Ooze/JAVA-JET.svg?color=light%20green)  ![Github coverage](https://img.shields.io/badge/Java-100%25-blue.svg)
+
+![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqe9qPKBN1TNd-HhAPNCx5_dnp8K-K4wS3mouErVI3zt-qLnKi)
 # Java
 Java is one of the most popular and widely used programming language and platform.It is fast, reliable and secure.Also java is *object-oriented programming* language.Java is *statically type language* (because the type of data is predefined as part of the programming language and all constants or variables are defined for a given program).
 ### Data Types:
@@ -84,6 +86,8 @@ codePoint − This is a Unicode code point.
 ###### RETURN VALUE: 
 
 The method returns this object after appending the string represented by the codepoint.
+
+
 
 
 
