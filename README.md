@@ -60,6 +60,30 @@ Java is an object oriented programming language.The main aim of OOP is to bind t
 
 Example of Class and Object together is [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class%20and%20Objects.java).
 
+### Object Cloning in Java
+Cloning basically means creating a exact copy of an object.The clone() method of Object class is used to clone an object.
+The java.lang.Cloneable interface must be implemented by the class whose object clone we want to create.Else clone() method generates CloneNotSupportedException.
+
+Syntax of the clone() method: 
+
+    protected Object clone() throws CloneNotSupportedException
+    
+The clone() method is defined in the Object class.
+#### *Why do we need this clone() method??*
+This clone() method saves the extra processing task for creating the exact copy of an object. If we perform it by using the new keyword, it will take a lot of time that is why we use object cloning. 
+Example of clone() method is [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class%20and%20Objects.java).
+  
+### Java.lang.StringBuffer.appendCodePoint() Method *{RARELY USED}*
+This method is used to append the string representation of the codepoint argument.The syntax:
+public StringBuffer appendCodePoint(int cp).
+
+###### PARAMETER:
+
+codePoint − This is a Unicode code point.
+
+###### RETURN VALUE: 
+
+The method returns this object after appending the string represented by the codepoint.
 
 
 
