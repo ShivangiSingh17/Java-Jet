@@ -34,6 +34,9 @@ Java is an object oriented programming language.The main aim of OOP is to bind t
 
   For example:[here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/polymorphism.java)
 
+### Arrays
+
+
 2)<B> Inheritance-</B> Mechanism by which one class can inherit the features of another class.
 
 3)<B> Object-</B> It the most basic unit of OOPs.An object consists of : 
@@ -86,6 +89,32 @@ codePoint − This is a Unicode code point.
 ###### RETURN VALUE: 
 
 The method returns this object after appending the string represented by the codepoint.
+
+### Arrays
+An array is a type of data structure wherein all elements are of the same data type. Once defined, the size of an array is fixed and cannot increase to accommodate more elements.*The first element of an array starts with index zero.*
+Or simply can be defined as a programming construct to define certain categories.
+It is present in java.util package.
+There are *three-steps* involved in defining an array:
+
+- Declaring an array
+
+Syntax:
+    `<elementType> <arrayName>[];`
+    
+
+- Constructing an Array
+
+Syntax:
+      `arrayname = new dataType[]`
+
+
+- Initialize the Array 
+
+Syntax:
+Eg:     `intArray[0]=n; // Assigns an integer value (n=any number) to the first element 0 of the array`
+
+
+
 
 
 
