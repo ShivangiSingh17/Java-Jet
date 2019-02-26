@@ -41,27 +41,27 @@ Java is an object oriented programming language.The main aim of OOP is to bind t
 
 3)<B> Object-</B> It the most basic unit of OOPs.An object consists of : 
  
- - STATE: It is represented by attributes of an object. It also reflects the properties of an object.
+ - State: It is represented by attributes of an object. It also reflects the properties of an object.
  
- - BEHAVIOUR : It is represented by methods of an object. It also reflects the response of an object with other objects.
+ - Behaviour : It is represented by methods of an object. It also reflects the response of an object with other objects.
  
- - IDENTITY: It gives a unique name to an object and enables one object to interact with other objects.
+ - Identity: It gives a unique name to an object and enables one object to interact with other objects.
  
  A simple program to explain the concept of object can be found [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Object.java).
 
 4)<B>Classes-</B>Class is a user defined blueprint or prototype from which objects are created.It shows the set of properties that are common to all objects of same type. In general, class declarations includes:
 
-- MODIFIERS : A class can be public or has default access.
+- Modifiers : A class can be public or has default access.
 
-- CLASS NAME: The name should begin with a letter <B>(capitalized by convention).</B>
+- Class Name: The name should begin with a letter <B>(capitalized by convention).</B>
 
-- SUPER CLASS: The name of the class’s parent (superclass),preceded by the keyword extends.
+- Super Class: The name of the class’s parent (superclass),preceded by the keyword extends.
 
-- BODY: The class body surrounded by braces, { }.
+- Body: The class body surrounded by braces, { }.
  
  A simple program to explain the concept of classes can be found [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class.java).
 
-#### NOTE: When class is defined, only the specification for the object is defined; no memory or storage is allocated.To access members defined within the class, you need to create objects.
+ ##### :star::star:NOTE: When class is defined, only the specification for the object is defined; no memory or storage is allocated.To access members defined within the class, you need to create objects.
 
 Example of Class and Object together is [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class%20and%20Objects.java).
 
@@ -70,8 +70,8 @@ Cloning basically means creating a exact copy of an object.The clone() method of
 The java.lang.Cloneable interface must be implemented by the class whose object clone we want to create.Else clone() method generates CloneNotSupportedException.
 
 Syntax of the clone() method: 
-
-    protected Object clone() throws CloneNotSupportedException
+java
+protected Object clone() throws CloneNotSupportedException
     
 The clone() method is defined in the Object class.
 #### *Why do we need this clone() method??*
@@ -82,11 +82,11 @@ Example of clone() method is [here](https://github.com/Starcode71Ooze/JAVA-JET/b
 This method is used to append the string representation of the codepoint argument.The syntax:
 public StringBuffer appendCodePoint(int cp).
 
-###### PARAMETER:
+###### Parameter:
 
 codePoint − This is a Unicode code point.
 
-###### RETURN VALUE: 
+###### Return Value: 
 
 The method returns this object after appending the string represented by the codepoint.
 
