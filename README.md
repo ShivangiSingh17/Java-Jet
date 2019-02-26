@@ -113,8 +113,27 @@ Syntax:
 Syntax:
 Eg:     `intArray[0]=n; // Assigns an integer value (n=any number) to the first element 0 of the array`
 
+:mag:To declare an array, define the variable type with square brackets.
 
+While working in array we may need to access the terms that are stored in that an array.We do that by referring to the `index number`. Arrays can store data in form of primitive data type or in form of an objects of a class.If it stores as primitive data type then data is stored at memory location or else as a heap segment.
 
+There are two types of array we learn about:
+
+:one: One-Dimensionnal Array
+
+:two: Multi-Dimensional Array
+
+So lets discuss in detail; 
+
+:one:One-dimensional array declaration has two components: *the type and the name.* 
+
+*type* declares the element type of the array. The element type determines the data type of each element that comprises the array. Like array of int type, we can also create have an array of primitive data types like char, float, double..etc or user defined data type(objects of a class).Thus, the element type for the array determines what type of data the array will hold.
+
+Array is basically declared as:
+
+:arrow_right:   type var-name[];
+  ###### OR
+:arrow_right:   type[] var-name;
 
 
 
