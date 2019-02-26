@@ -135,6 +135,15 @@ Array is basically declared as:
   ###### OR
 :arrow_right:   type[] var-name;
 
+Now moving on to the next step that is intializing an array.It basically refers to assigning a initial condition/value to the array.
+Syntax:
+
+`variable-name = new type [size];`
+
+:warning: *type specifies* 
+
+The type of data being allocated, size specifies the number of elements in the array, and var-name is the name of array variable that is linked to the array. That is, to use new to allocate an array, you must specify the type and number of elements to allocate.
+
 
 
 
