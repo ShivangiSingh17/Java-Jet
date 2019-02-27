@@ -144,6 +144,34 @@ Syntax:
 
 The type of data being allocated, size specifies the number of elements in the array, and var-name is the name of array variable that is linked to the array. That is, to use new to allocate an array, you must specify the type and number of elements to allocate.
 
+##### Example:
+
+int intArray[];    //declaring array
+
+`intArray = new int[n];`  // allocating memory to array
+
+where n=any whole number
+
+- The elements in the array allocated by new will automatically be initialized to zero (for numeric types), false (for boolean), or null (for reference types).It is a default value storage.
+
+- Obtaining an array is a two-step process. First, you must declare a variable of the desired array type. Second, you must allocate the memory that will hold the array, using new, and assign it to the array variable.
+
+:heavy_exclamation_mark:Our above example can we written as this also:
+
+`int[] intArray = new int[20];` // combining both statements as one statement.
+
+
+#### Array Literals
+This type is used when we already know about the array like variables and size of the array.
+
+:mag: There is no need to write the `new int[]` part.
+
+
+
+
+
+
+
 
 
 
