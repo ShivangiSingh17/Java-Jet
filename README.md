@@ -167,7 +167,9 @@ This type is used when we already know about the array like variables and size o
 :mag: There is no need to write the `new int[]` part.
 
 
-
+#### Accessing Array elements
+Once we have an array declared and initialised we can access any element stored in that array by inputing the location of that element.Example we create an array called students and we stored the list of all students with their roll no. then we can access any student name by giving his roll no. and transversing in the array as
+`student[12]`        //Let the boy named Deepak is having that num. so the output will be "Deepak".
 
 
 
