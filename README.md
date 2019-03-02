@@ -63,7 +63,7 @@ Java is an object oriented programming language.The main aim of OOP is to bind t
 
  ##### :star::star:NOTE: When class is defined, only the specification for the object is defined; no memory or storage is allocated.To access members defined within the class, you need to create objects.
 
-Example of Class and Object together is [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class%20and%20Objects.java).
+Example of Class and Object together is [here](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ClassAndObject.java).
 
 ### Object Cloning in Java
 Cloning basically means creating a exact copy of an object.The clone() method of Object class is used to clone an object.
