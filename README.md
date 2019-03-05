@@ -174,8 +174,11 @@ Example we create an array called students and we stored the list of all student
 //Let the boy named Deepak is having the roll no.12, so the output will be "Deepak".
 
 #### Arrays of Objects
-Lets at first consider an example . :question:Would you like to guess the output:question:.
+Lets at first consider an [example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java) . 
+
+:question:Would you like to guess the output:question:.
 Just like general arrays the difference with the array of objects is that it stores objects in the array whereas the general array stores integers, variables, boolean etc. Also the array elements store the location of reference variables of the object.
+
 ###### Syntax:
 ```Class obj[]= new Class[array_length]```
 
