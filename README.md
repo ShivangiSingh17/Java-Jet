@@ -182,6 +182,14 @@ Just like general arrays the difference with the array of objects is that it sto
 ###### Syntax:
 ```Class obj[]= new Class[array_length]```
 
+So now lets look towards the output of the above [example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java). The output will be:
+
+
+```Element at 0 : 1 Atharv
+Element at 1 : 2 Vaibhav
+Element at 2 : 3 Gargi
+Element at 3 : 4 Sunil
+Element at 4 : 5 Shikhar```
 
 
 
