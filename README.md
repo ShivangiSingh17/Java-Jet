@@ -2,7 +2,7 @@
 
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqe9qPKBN1TNd-HhAPNCx5_dnp8K-K4wS3mouErVI3zt-qLnKi)
 # Java
-Java is one of the most popular and widely used programming language and platform.It is fast, reliable and secure.Also java is *object-oriented programming* language.Java is *statically type language* (because the type of data is predefined as part of the programming language and all constants or variables are defined for a given program).
+Java is one of the most popular and widely used programming language and platform. It is fast, reliable and secure.Also java is *object-oriented programming* language. Java is *statically type language* (because the type of data is predefined as part of the programming language and all constants or variables are defined for a given program).
 ### Data Types:
 They are basically of two types:
 1) Primitive data type
@@ -15,7 +15,7 @@ For declaring a variable it includes data type,variable name and value.
 For Eg. `int cost = 20;`
 Here `int` is data type ,`cost` is variable name and `20` is value.
 ### Java Identifiers:
-In Java, an identifier can be a class name, method name, variable name or a label.There are certain rules to define java identifiers:
+In Java, an identifier can be a class name, method name, variable name or a label. There are certain rules to define java identifiers:
 
 1. Only alphanumeric characters are allowed as identifiers i.e. [A-Z], [a-z], [0-9] and '$', '_'.
 
@@ -28,7 +28,7 @@ In Java, an identifier can be a class name, method name, variable name or a labe
 Here is the first java program-[*Hello World*](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/HelloWorld.java)
 
 ### OOP Concept:
-Java is an object oriented programming language.The main aim of OOP is to bind together the data and the functions that operate so that no other part of the code can access this data except that function.
+Java is an object oriented programming language. The main aim of OOP is to bind together the data and the functions that operate so that no other part of the code can access this data except that function.
 <dd>OOPs Concept INCLUDES: </dd>
 1)<B>Polymorphism-</B> Way to differentiate between entities with the same name efficiently.
 
@@ -39,7 +39,7 @@ Java is an object oriented programming language.The main aim of OOP is to bind t
 
 2)<B> Inheritance-</B> Mechanism by which one class can inherit the features of another class.
 
-3)<B> Object-</B> It the most basic unit of OOPs.An object consists of : 
+3)<B> Object-</B> It the most basic unit of OOPs. An object consists of : 
  
  - State: It is represented by attributes of an object. It also reflects the properties of an object.
  
@@ -49,7 +49,7 @@ Java is an object oriented programming language.The main aim of OOP is to bind t
  
  A simple program to explain the concept of object can be found [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Object.java).
 
-4)<B>Classes-</B>Class is a user defined blueprint or prototype from which objects are created.It shows the set of properties that are common to all objects of same type. In general, class declarations includes:
+4)<B>Classes-</B>Class is a user defined blueprint or prototype from which objects are created. It shows the set of properties that are common to all objects of same type. In general, class declarations includes:
 
 - Modifiers : A class can be public or has default access.
 
@@ -61,12 +61,12 @@ Java is an object oriented programming language.The main aim of OOP is to bind t
  
  A simple program to explain the concept of classes can be found [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class.java).
 
- ##### :star::star:NOTE: When class is defined, only the specification for the object is defined; no memory or storage is allocated.To access members defined within the class, you need to create objects.
+ ##### :star::star:NOTE: When class is defined, only the specification for the object is defined; no memory or storage is allocated. To access members defined within the class, you need to create objects.
 
 Example of Class and Object together is [here](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ClassAndObject.java).
 
 ### Object Cloning in Java
-Cloning basically means creating a exact copy of an object.The clone() method of Object class is used to clone an object.
+Cloning basically means creating a exact copy of an object. The clone() method of Object class is used to clone an object.
 The java.lang.Cloneable interface must be implemented by the class whose object clone we want to create.Else clone() method generates CloneNotSupportedException.
 
 Syntax of the clone() method: 
@@ -91,7 +91,7 @@ codePoint − This is a Unicode code point.
 The method returns this object after appending the string represented by the codepoint.
 
 ### Arrays
-An array is a type of data structure wherein all elements are of the same data type. Once defined, the size of an array is fixed and cannot increase to accommodate more elements.*The first element of an array starts with index zero.*
+An array is a type of data structure wherein all elements are of the same data type. Once defined, the size of an array is fixed and cannot increase to accommodate more elements. *The first element of an array starts with index zero.*
 Or simply can be defined as a programming construct to define certain categories.
 It is present in java.util package.
 There are *three-steps* involved in defining an array:
@@ -115,7 +115,7 @@ Eg:     `intArray[0]=n; // Assigns an integer value (n=any number) to the first 
 
 :mag:To declare an array, define the variable type with square brackets.
 
-While working in array we may need to access the terms that are stored in that an array.We do that by referring to the `index number`. Arrays can store data in form of primitive data type or in form of an objects of a class.If it stores as primitive data type then data is stored at memory location or else as a heap segment.
+While working in array we may need to access the terms that are stored in that an array.We do that by referring to the `index number`. Arrays can store data in form of primitive data type or in form of an objects of a class. If it stores as primitive data type then data is stored at memory location or else as a heap segment.
 
 There are two types of array we learn about:
 
@@ -127,7 +127,7 @@ So lets discuss in detail;
 
 :one:One-dimensional array declaration has two components: *the type and the name.* 
 
-*type* declares the element type of the array. The element type determines the data type of each element that comprises the array. Like array of int type, we can also create have an array of primitive data types like char, float, double..etc or user defined data type(objects of a class).Thus, the element type for the array determines what type of data the array will hold.
+*type* declares the element type of the array. The element type determines the data type of each element that comprises the array. Like array of int type, we can also create have an array of primitive data types like char, float, double..etc or user defined data type(objects of a class). Thus, the element type for the array determines what type of data the array will hold.
 
 Array is basically declared as:
 
@@ -152,7 +152,7 @@ int intArray[];    //declaring array
 
 where n=any whole number
 
-- The elements in the array allocated by new will automatically be initialized to zero (for numeric types), false (for boolean), or null (for reference types).It is a default value storage.
+- The elements in the array allocated by new will automatically be initialized to zero (for numeric types), false (for boolean), or null (for reference types). It is a default value storage.
 
 - Obtaining an array is a two-step process. First, you must declare a variable of the desired array type. Second, you must allocate the memory that will hold the array, using new, and assign it to the array variable.
 
@@ -168,8 +168,10 @@ This type is used when we already know about the array like variables and size o
 
 
 #### Accessing Array elements
-Once we have an array declared and initialised we can access any element stored in that array by inputing the location of that element.Example we create an array called students and we stored the list of all students with their roll no. then we can access any student name by giving his roll no. and transversing in the array as
-`student[12]`        //Let the boy named Deepak is having that num. so the output will be "Deepak".
+Once we have an array declared and initialised we can access any element stored in that array by inputing the location of that element. 
+Example we create an array called students and we stored the list of all students with their roll no. then we can access any student name by giving his roll no. and transversing in the array as
+`student[12]`        
+//Let the boy named Deepak is having the roll no.12, so the output will be "Deepak".
 
 
 
