@@ -27,6 +27,23 @@ In Java, an identifier can be a class name, method name, variable name or a labe
 
 Here is the first java program-[*Hello World*](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/HelloWorld.java)
 
+#### 1.Basic Syntax in Java:
+About Java programs, there are some very important rules to keep in mind they are as follows:
+
+##### 1. Case Sensitivity 
+Java is case sensitive, which means identifier Hello and hello would have different meaning in Java.
+
+##### 1.Class Names 
+For all class names the first letter should be in Upper Case. If several words are used to form a name of the class, each inner word's first letter should be in Upper Case.
+
+Example: ``class MyFirstJavaClass``
+
+##### 1.Method Names 
+All method names should start with a Lower Case letter. If several words are used to form the name of the method, then each inner word's first letter should be in Upper Case.
+
+Example: `public void myMethodName()`
+
+
 ### OOP Concept:
 Java is an object oriented programming language. The main aim of OOP is to bind together the data and the functions that operate so that no other part of the code can access this data except that function.
 <dd>OOPs Concept INCLUDES: </dd>
