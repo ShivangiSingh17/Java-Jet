@@ -5,8 +5,8 @@
 Java is one of the most popular and widely used programming language and platform. It is fast, reliable and secure.Also java is *object-oriented programming* language. Java is *statically type language* (because the type of data is predefined as part of the programming language and all constants or variables are defined for a given program).
 ### Data Types:
 They are basically of two types:
-1) Primitive data type
-2) Object data type
+1. Primitive data type
+2. Object data type
 
 Primitive consists of boolean,byte,char,short,int,long,float,double.Whereas Object consists of programmer created types.
 ### Variables in Java:
@@ -176,7 +176,7 @@ Example we create an array called students and we stored the list of all student
 #### Arrays of Objects
 Lets at first consider an [example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java) . 
 
-:question:Would you like to guess the output:question:.
+:question::question:Would you like to guess the output:question::question:.
 Just like general arrays the difference with the array of objects is that it stores objects in the array whereas the general array stores integers, variables, boolean etc. Also the array elements store the location of reference variables of the object.
 
 ###### Syntax:
@@ -189,7 +189,7 @@ So now lets look towards the output of the above [example](https://github.com/Sh
 Element at 1 : 2 Vaibhav
 Element at 2 : 3 Gargi
 Element at 3 : 4 Sunil
-Element at 4 : 5 Shikhar```
+Element at 4 : 5 Shikhar
 
 
 
