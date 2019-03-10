@@ -47,9 +47,9 @@ Example: `public void myMethodName()`
 ##### Program File Name
 Name of the program file should exactly match the class name.
 
-:loudspeaker::loudspeaker:When saving the file, you should save it using the class name (Remember Java is case sensitive) and append '.java' to the end of the name (if the file name and the class name do not match, your program will not compile).
+:loudspeaker:  :loudspeaker:When saving the file, you should save it using the class name (Remember Java is case sensitive) and append '.java' to the end of the name (if the file name and the class name do not match, your program will not compile).
 
-:loudspeaker::loudspeaker:But please make a note that in case you do not have a public class present in the file then file name can be different than class name. It is also not mandatory to have a public class in the file.
+:loudspeaker:  :loudspeaker:But please make a note that in case you do not have a public class present in the file then file name can be different than class name. It is also not mandatory to have a public class in the file.
 
 Example: Assume `'MyFirstJavaProgram'` is the class name. Then the file should be saved as `'MyFirstJavaProgram.java'`
 
@@ -66,8 +66,6 @@ Java is an object oriented programming language. The main aim of OOP is to bind 
 1)<B>Polymorphism-</B> Way to differentiate between entities with the same name efficiently.
 
   For example:[here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/polymorphism.java)
-
-### Arrays
 
 
 2)<B> Inheritance-</B> Mechanism by which one class can inherit the features of another class.
@@ -215,7 +213,7 @@ Just like general arrays the difference with the array of objects is that it sto
 ###### Syntax:
 ```Class obj[]= new Class[array_length]```
 
-So now lets look towards the output of the above [example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java). The output will be:
+So now lets look towards the output of the :arrow_double_up: :abovearrow_double_up: [example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java). The output will be:
 
 
 ```Element at 0 : 1 Atharv
