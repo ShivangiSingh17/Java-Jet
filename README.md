@@ -6,9 +6,9 @@ Java is one of the most popular and widely used programming language and platfor
 ### Data Types:
 They are basically of two types:
 1. Primitive data type
-2. Object data type
+1. Object data type
 
-Primitive consists of boolean,byte,char,short,int,long,float,double.Whereas Object consists of programmer created types.
+:sound:Primitive consists of boolean,byte,char,short,int,long,float,double.Whereas Object consists of programmer created types.
 ### Variables in Java:
 A variable is the name given to a memory location. It is the basic unit of storage in a program.
 For declaring a variable it includes data type,variable name and value.
@@ -63,14 +63,14 @@ Java program processing starts from the main() method which is a mandatory part 
 ### OOP Concept:
 Java is an object oriented programming language. The main aim of OOP is to bind together the data and the functions that operate so that no other part of the code can access this data except that function.
 <dd>OOPs Concept INCLUDES: </dd>
-1)<B>Polymorphism-</B> Way to differentiate between entities with the same name efficiently.
+:sound:1)<B>Polymorphism-</B> Way to differentiate between entities with the same name efficiently.
 
   For example:[here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/polymorphism.java)
 
 
-2)<B> Inheritance-</B> Mechanism by which one class can inherit the features of another class.
+:sound:2)<B> Inheritance-</B> Mechanism by which one class can inherit the features of another class.
 
-3)<B> Object-</B> It the most basic unit of OOPs. An object consists of : 
+:sound:3)<B> Object-</B> It the most basic unit of OOPs. An object consists of : 
  
  - State: It is represented by attributes of an object. It also reflects the properties of an object.
  
@@ -80,7 +80,7 @@ Java is an object oriented programming language. The main aim of OOP is to bind 
  
  A simple program to explain the concept of object can be found [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Object.java).
 
-4)<B>Classes-</B>Class is a user defined blueprint or prototype from which objects are created. It shows the set of properties that are common to all objects of same type. In general, class declarations includes:
+:sound:4)<B>Classes-</B>Class is a user defined blueprint or prototype from which objects are created. It shows the set of properties that are common to all objects of same type. In general, class declarations includes:
 
 - Modifiers : A class can be public or has default access.
 
