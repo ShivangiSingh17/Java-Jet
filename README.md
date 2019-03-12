@@ -1,4 +1,4 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/Starcode71Ooze/JAVA-JET.svg?color=light%20green)  ![Github coverage](https://img.shields.io/badge/Java-100%25-blue.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/Starcode71Ooze/JAVA-JET.svg?color=light%20green)  ![Github coverage](https://img.shields.io/badge/Java-100%25-blue.svg) ![Java](https://img.shields.io/badge/Beginner's-Guide-orange.svg)
 
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqe9qPKBN1TNd-HhAPNCx5_dnp8K-K4wS3mouErVI3zt-qLnKi)
 # Java
