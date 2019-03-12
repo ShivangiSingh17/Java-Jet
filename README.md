@@ -2,16 +2,16 @@
 
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqe9qPKBN1TNd-HhAPNCx5_dnp8K-K4wS3mouErVI3zt-qLnKi)
 # Java
-Java is one of the most popular and widely used programming language and platform. It is fast, reliable and secure.Also java is *object-oriented programming* language. Java is *statically type language* (because the type of data is predefined as part of the programming language and all constants or variables are defined for a given program).
+Java is one of the most popular and widely used programming language and platform. It is fast, reliable and secure. Also java is *object-oriented programming* language. Java is *statically type language* (because the type of data is predefined as part of the programming language and all constants or variables are defined for a given program).
 ### Data Types:
 They are basically of two types:
 1. Primitive data type
 1. Object data type
 
-:sound:Primitive consists of boolean,byte,char,short,int,long,float,double.Whereas Object consists of programmer created types.
+:sound:Primitive consists of boolean, byte, char, short, int, long, float, double. Whereas Object consists of programmer created types.
 ### Variables in Java:
 A variable is the name given to a memory location. It is the basic unit of storage in a program.
-For declaring a variable it includes data type,variable name and value.
+For declaring a variable it includes data type, variable name and value.
 For Eg. `int cost = 20;`
 Here `int` is data type ,`cost` is variable name and `20` is value.
 ### Java Identifiers:
@@ -92,13 +92,13 @@ Java is an object oriented programming language. The main aim of OOP is to bind 
  
  A simple program to explain the concept of classes can be found [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class.java).
 
- ##### :star::star:NOTE: When class is defined, only the specification for the object is defined; no memory or storage is allocated. To access members defined within the class, you need to create objects.
+ ##### :star::star:NOTE: When class is defined, only the specification for the object is defined; no memory or storage is allocated. To access members defined within the class, you need to create objects.:star: :star:
 
 Example of Class and Object together is [here](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ClassAndObject.java).
 
 ### Object Cloning in Java
 Cloning basically means creating a exact copy of an object. The clone() method of Object class is used to clone an object.
-The java.lang.Cloneable interface must be implemented by the class whose object clone we want to create.Else clone() method generates CloneNotSupportedException.
+The java.lang.Cloneable interface must be implemented by the class whose object clone we want to create. Else clone() method generates CloneNotSupportedException.
 
 Syntax of the clone() method: 
 java
@@ -110,7 +110,7 @@ This clone() method saves the extra processing task for creating the exact copy 
 Example of clone() method is [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class%20and%20Objects.java).
   
 ### Java.lang.StringBuffer.appendCodePoint() Method *{RARELY USED}*
-This method is used to append the string representation of the codepoint argument.The syntax:
+This method is used to append the string representation of the codepoint argument. The syntax followed is:
 public StringBuffer appendCodePoint(int cp).
 
 ###### Parameter:
