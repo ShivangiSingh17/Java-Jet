@@ -217,7 +217,7 @@ Just like general arrays the difference with the array of objects is that it sto
 ###### Syntax:
 ```Class obj[]= new Class[array_length]```
 
-So now lets look towards the output of the :arrow_double_up: :abovearrow_double_up: [example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java). The output will be:
+So now lets look towards the output of the :arrow_double_up:[example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java). The output will be:
 
 
 ```Element at 0 : 1 Atharv
