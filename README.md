@@ -228,6 +228,7 @@ Element at 4 : 5 Shikhar
 ```
 
 101: Symmetric tree
+```
 class Solution {
     public boolean isSymmetric(TreeNode root) {
 	if (root == null)
@@ -236,7 +237,7 @@ class Solution {
 }
  
 public boolean isSymmetric(TreeNode l, TreeNode r) {
-	```if (l == null && r == null) {
+	if (l == null && r == null) {
 		return true;
 	} else if (r == null || l == null) {
 		return false;
