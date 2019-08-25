@@ -227,8 +227,157 @@ Element at 3 : 4 Sunil
 Element at 4 : 5 Shikhar
 ```
 
+101: Symmetric tree
+class Solution {
+    public boolean isSymmetric(TreeNode root) {
+	if (root == null)
+		return true;
+	return isSymmetric(root.left, root.right);
+}
+ 
+public boolean isSymmetric(TreeNode l, TreeNode r) {
+	```if (l == null && r == null) {
+		return true;
+	} else if (r == null || l == null) {
+		return false;
+	}
+ 
+	if (l.val != r.val)
+		return false;
+ 
+	if (!isSymmetric(l.left, r.right))
+		return false;
+	if (!isSymmetric(l.right, r.left))
+		return false;
+ 
+	return true;
+}
+}```
 
+```Validate Binary Search Tree
+class Solution {
+public boolean isValidBST(TreeNode root) {
+    return helper(root, Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY);
+}
+ 
+public boolean helper(TreeNode root, double min, double max){
+    if(root==null){
+        return true;
+    }
+ 
+    if(root.val<=min||root.val>=max){
+        return false;
+    }
+ 
+    boolean isLeftBST = helper(root.left, min, root.val);
+    boolean isRightBST = helper(root.right, root.val, max);
+ 
+    if(!isLeftBST||!isRightBST){
+        return false;
+    }    
+ 
+    return true;
+}
+}
+```
+Delete Node in a BST
+```public class Solution {
+     public TreeNode deleteNode(TreeNode root, int key) {
+         if(root == null){
+             return root;
+         }
+         if(key < root.val){
+             root.left = deleteNode(root.left, key);
+         }else if(key > root.val){
+             root.right = deleteNode(root.right, key);
+         }else{
+             if(root.left == null){
+                 return root.right;
+             }else if(root.right == null){
+                 return root.left;
+             }else{
+                 TreeNode suc = findSuc(root.right);
+                 root.val =suc.val;
+                 root.right = deleteNode(root.right, suc.val);
+             }
+         }
+         return root;
+     }
+     
+     private TreeNode findSuc(TreeNode root){
+       while(root.left != null){
+    root = root.left;         }         return root;     }
+} 
+```
 
+Insert into a Binary Search Tree
+```
+class Solution {
+    public TreeNode insertIntoBST(TreeNode root, int val) {
+        if (root == null) { return new TreeNode(val); }
+        TreeNode p = null;
+        TreeNode r = root;
+        while (r != null) {
+            p = r;
+            if (r.val > val) { 
+                r = r.left; 
+            } else if (r.val < val) { 
+                r = r.right; 
+            }
+        }
+        TreeNode n = new TreeNode(val);
+        if (p.val > val) { p.left = n; }
+        if (p.val < val) { p.right = n; }
+        return root;
+    }
+}
+```
+Same tree
+```
+class Solution {
+    public boolean isSameTree(TreeNode p, TreeNode q) {
+    if(p==null && q==null)
+        return true;
+    else if(p==null || q==null)
+        return false;
+    if(p.val==q.val)
+        return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+    else
+        return false;
+        }
+}
+```
+Maximum Depth of Binary Tree
+```class Solution {
+    public int maxDepth(TreeNode root) {
+        if(root == null)
+            return 0;
+        int leftDepth = maxDepth(root.left);
+        int rightDepth = maxDepth(root.right);
+ 
+        int bigger = Math.max(leftDepth, rightDepth);
+        return bigger+1;
+}
+    }
+```
+Trim a binary search tree
+```
+class Solution {
+    public TreeNode trimBST(TreeNode root, int L, int R) {
+        if(root == null) 
+            return root; 
+        if(root.val < L) { 
+            return trimBST(root.right, L, R); 
+        }
+        if(root.val > R) { 
+            return trimBST(root.left, L, R); 
+        }
+        root.left = trimBST(root.left, L, R);
+        root.right = trimBST(root.right, L, R);
+        return root;
+    }
+}
+```
 
 
 
