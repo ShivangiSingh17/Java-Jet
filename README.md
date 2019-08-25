@@ -253,9 +253,10 @@ public boolean isSymmetric(TreeNode l, TreeNode r) {
  
 	return true;
 }
-}```
-
-```Validate Binary Search Tree
+}
+```
+Validate Binary Search Tree
+```
 class Solution {
 public boolean isValidBST(TreeNode root) {
     return helper(root, Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY);
