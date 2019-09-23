@@ -13,3 +13,10 @@ Rules for defining generic methods:
 
 #### Generic classes
 Same but followed by by a type parameter section. These classes are known as parameterized classes or parameterized types because they accept one or more parameters.
+
+:star: NOTE: The point class should use toString else instead of giving thye output as (x,y), it will give the memory location.
+
+#### Bounded type parameter
+Sometimes we would like to limit the datatype and this used. 
+To declare a bounded type parameter, list the type parameter's name, followed by the extends keyword, followed by its upper bound.
+Eg.  public static <T extends Comparable<T>> T maximum(T x, T y, T z)
