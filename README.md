@@ -8,10 +8,10 @@ They are basically of two types:
 1. Primitive data type
 1. Object data type
 
-:sound:Primitive consists of boolean, byte, char, short, int, long, float, double. Whereas Object consists of programmer created types.
+:sound:Primitive consists of boolean, byte, char, short, int, long, float, and double whereas Object consists of programmer created types.
 ### Variables in Java:
-A variable is the name given to a menmory location. It is the basic unit of storage in a program.
-For declaring a variable it includes data type, variable name and value.
+A variable is the name given to a memory location. It is the basic unit of storage in a program.
+For declaring a variable we need to specify data type, variable name and value.
 For Eg. `int cost = 20;`
 Here `int` is data type ,`cost` is variable name and `20` is value.
 ### Java Identifiers:
@@ -28,7 +28,7 @@ In Java, an identifier can be a class name, method name, variable name or a labe
 Here is the first java program-[*Hello World*](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/HelloWorld.java)
 
 #### Basic Syntax in Java:
-About Java programs, there are some very important rules to keep in mind they are as follows:
+About Java programs, there are some very important rules to keep in mind. They are as follows:
 
 ##### Case Sensitivity 
 Java is case sensitive, which means identifier Hello and hello would have different meaning in Java.
@@ -150,7 +150,7 @@ Eg:     `intArray[0]=n; // Assigns an integer value (n=any number) to the first 
 
 :mag:To declare an array, define the variable type with square brackets.
 
-While working in array we may need to access the terms that are stored in that an array.We do that by referring to the `index number`. Arrays can store data in form of primitive data type or in form of an objects of a class. If it stores as primitive data type then data is stored at memory location or else as a heap segment.
+While working in array we may need to access the terms that are stored in that array. We do that by referring to the `index number`. Arrays can store data in form of primitive data type or in form of an objects of a class. If it stores as primitive data type then data is stored at memory location or else as a heap segment.
 
 There are two types of array we learn about:
 
