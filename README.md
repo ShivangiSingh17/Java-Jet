@@ -2,7 +2,7 @@
 
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqe9qPKBN1TNd-HhAPNCx5_dnp8K-K4wS3mouErVI3zt-qLnKi)
 # Java
-Java is one of the most popular and widely used programming language and platform. It is fast, reliable and secure. Also java is *object-oriented programming* language. Java is *statically type language* (because the type of data is predefined as part of the programming language and all constants or variables are defined for a given program).
+Java is one of the most popular and widely used programming language and platform. It is fast, reliable and secure. Also java is *object-oriented programming* language. Java is *statically type language* (because the type of data is predefined as part of the programing language and all constants or variables are defined for a given program).
 ### Data Types:
 They are basically of two types:
 1. Primitive data type
@@ -10,7 +10,7 @@ They are basically of two types:
 
 :sound:Primitive consists of boolean, byte, char, short, int, long, float, double. Whereas Object consists of programmer created types.
 ### Variables in Java:
-A variable is the name given to a memory location. It is the basic unit of storage in a program.
+A variable is the name given to a menmory location. It is the basic unit of storage in a program.
 For declaring a variable it includes data type, variable name and value.
 For Eg. `int cost = 20;`
 Here `int` is data type ,`cost` is variable name and `20` is value.
@@ -49,12 +49,12 @@ Name of the program file should exactly match the class name.
 
 :unlock:When saving the file, you should save it using the class name (Remember Java is case sensitive) and append '.java' to the end of the name (if the file name and the class name do not match, your program will not compile).
 
-:unlock:But please make a note that in case you do not have a public class present in the file then file name can be different than class name. It is also not mandatory to have a public class in the file.
+:unlock:But please make a note that in case you do not have a public class present in the file then file name can be different than class name. It is also not mandatary to have a public class in the file.
 
 Example: Assume `'MyFirstJavaProgram'` is the class name. Then the file should be saved as `'MyFirstJavaProgram.java'`
 
 ##### public static void main(String args[]) 
-Java program processing starts from the main() method which is a mandatory part of every Java program.
+Java program processing starts from the main() method which is a mandatary part of every Java program.
 
 
 
@@ -102,7 +102,7 @@ Example of Class and Object together is [here](https://github.com/ShivangiSingh1
 ![alt text](https://s3.amazonaws.com/lowres.cartoonstock.com/science-human_cloning-clones-genetic_engineering-cartoon--cgrn5_low.jpg)
 
 Cloning basically means creating a exact copy of an object. The clone() method of Object class is used to clone an object.
-The java.lang.Cloneable interface must be implemented by the class whose object clone we want to create. Else clone() method generates CloneNotSupportedException.
+The java.lang. Cloneable interface must be implemented by the class whose object clone we want to create. Else clone() method generates CloneNotSupportedException.
 
 Syntax of the clone() method: 
 java
@@ -110,11 +110,11 @@ protected Object clone() throws CloneNotSupportedException
     
 The clone() method is defined in the Object class.
 #### *Why do we need this clone() method??*
-This clone() method saves the extra processing task for creating the exact copy of an object. If we perform it by using the new keyword, it will take a lot of time that is why we use object cloning. 
+This clone() method saves the extra prosessing task for creating the exact copy of an object. If we perform it by using the new keyword, it will take a lot of time that is why we use object cloning. 
 Example of clone() method is [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class%20and%20Objects.java).
   
 ### Java.lang.StringBuffer.appendCodePoint() Method *{RARELY USED}*
-This method is used to append the string representation of the codepoint argument. The syntax followed is:
+This method is used to append the string representattion of the codepoint argument. The syntax followed is:
 public StringBuffer appendCodePoint(int cp).
 
 ###### Parameter:
@@ -170,7 +170,7 @@ Array is basically declared as:
   ###### OR
 :arrow_right:   type[] var-name;
 
-Now moving on to the next step that is intializing an array.It basically refers to assigning a initial condition/value to the array.
+Now moving on to the next step that is intialising an array.It basically refers to assigning a initial condition/value to the array.
 Syntax:
 
 `variable-name = new type [size];`
@@ -187,7 +187,7 @@ int intArray[];    //declaring array
 
 where n=any whole number
 
-- The elements in the array allocated by new will automatically be initialized to zero (for numeric types), false (for boolean), or null (for reference types). It is a default value storage.
+- The elements in the array allocated by new will automatically be initialised to zero (for numeric types), false (for boolean), or null (for reference types). It is a default value storage.
 
 - Obtaining an array is a two-step process. First, you must declare a variable of the desired array type. Second, you must allocate the memory that will hold the array, using new, and assign it to the array variable.
 
@@ -211,13 +211,13 @@ Example we create an array called students and we stored the list of all student
 #### Arrays of Objects
 Lets at first consider an [example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java) . 
 
-:question::question:Would you like to guess the output:question::question:.
+:question::question:Would you like to guees the output:question::question:.
 Just like general arrays the difference with the array of objects is that it stores objects in the array whereas the general array stores integers, variables, boolean etc. Also the array elements store the location of reference variables of the object.
 
 ###### Syntax:
 ```Class obj[]= new Class[array_length]```
 
-So now lets look towards the output of the :arrow_double_up:[example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java). The output will be:
+So now lets look toowards the output of the :arrow_double_up:[example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java). The output will be:
 
 
 ```Element at 0 : 1 Atharv
@@ -227,160 +227,11 @@ Element at 3 : 4 Sunil
 Element at 4 : 5 Shikhar
 ```
 
-101: Symmetric tree
-```
-class Solution {
-    public boolean isSymmetric(TreeNode root) {
-	if (root == null)
-		return true;
-	return isSymmetric(root.left, root.right);
-}
- 
-public boolean isSymmetric(TreeNode l, TreeNode r) {
-	if (l == null && r == null) {
-		return true;
-	} else if (r == null || l == null) {
-		return false;
-	}
- 
-	if (l.val != r.val)
-		return false;
- 
-	if (!isSymmetric(l.left, r.right))
-		return false;
-	if (!isSymmetric(l.right, r.left))
-		return false;
- 
-	return true;
-}
-}
-```
-Validate Binary Search Tree
-```
-class Solution {
-public boolean isValidBST(TreeNode root) {
-    return helper(root, Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY);
-}
- 
-public boolean helper(TreeNode root, double min, double max){
-    if(root==null){
-        return true;
-    }
- 
-    if(root.val<=min||root.val>=max){
-        return false;
-    }
- 
-    boolean isLeftBST = helper(root.left, min, root.val);
-    boolean isRightBST = helper(root.right, root.val, max);
- 
-    if(!isLeftBST||!isRightBST){
-        return false;
-    }    
- 
-    return true;
-}
-}
-```
-Delete Node in a BST
-```public class Solution {
-     public TreeNode deleteNode(TreeNode root, int key) {
-         if(root == null){
-             return root;
-         }
-         if(key < root.val){
-             root.left = deleteNode(root.left, key);
-         }else if(key > root.val){
-             root.right = deleteNode(root.right, key);
-         }else{
-             if(root.left == null){
-                 return root.right;
-             }else if(root.right == null){
-                 return root.left;
-             }else{
-                 TreeNode suc = findSuc(root.right);
-                 root.val =suc.val;
-                 root.right = deleteNode(root.right, suc.val);
-             }
-         }
-         return root;
-     }
-     
-     private TreeNode findSuc(TreeNode root){
-       while(root.left != null){
-    root = root.left;         }         return root;     }
-} 
-```
 
-Insert into a Binary Search Tree
-```
-class Solution {
-    public TreeNode insertIntoBST(TreeNode root, int val) {
-        if (root == null) { return new TreeNode(val); }
-        TreeNode p = null;
-        TreeNode r = root;
-        while (r != null) {
-            p = r;
-            if (r.val > val) { 
-                r = r.left; 
-            } else if (r.val < val) { 
-                r = r.right; 
-            }
-        }
-        TreeNode n = new TreeNode(val);
-        if (p.val > val) { p.left = n; }
-        if (p.val < val) { p.right = n; }
-        return root;
-    }
-}
-```
-Same tree
-```
-class Solution {
-    public boolean isSameTree(TreeNode p, TreeNode q) {
-    if(p==null && q==null)
-        return true;
-    else if(p==null || q==null)
-        return false;
-    if(p.val==q.val)
-        return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
-    else
-        return false;
-        }
-}
-```
-Maximum Depth of Binary Tree
-```class Solution {
-    public int maxDepth(TreeNode root) {
-        if(root == null)
-            return 0;
-        int leftDepth = maxDepth(root.left);
-        int rightDepth = maxDepth(root.right);
- 
-        int bigger = Math.max(leftDepth, rightDepth);
-        return bigger+1;
-}
-    }
-```
-Trim a binary search tree
-```
-class Solution {
-    public TreeNode trimBST(TreeNode root, int L, int R) {
-        if(root == null) 
-            return root; 
-        if(root.val < L) { 
-            return trimBST(root.right, L, R); 
-        }
-        if(root.val > R) { 
-            return trimBST(root.left, L, R); 
-        }
-        root.left = trimBST(root.left, L, R);
-        root.right = trimBST(root.right, L, R);
-        return root;
-    }
-}
-```
+#### Overriding in Java
+The benefit of overriding is: ability to define a behavior that's specific to the subclass type, which means a subclass can implement a parent class method based on its requirement.
 
+In object-oriented terms, overriding means to override the functionality of an existing method.
 
 
 
