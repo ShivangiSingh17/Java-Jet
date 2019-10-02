@@ -10,7 +10,7 @@ They are basically of two types:
 
 :sound:Primitive consists of boolean, byte, char, short, int, long, float, double. Whereas Object consists of programmer created types.
 ### Variables in Java:
-A variable is the name given to a menmory location. It is the basic unit of storage in a program.
+A variable is the name given to a memory location. It is the basic unit of storage in a program.
 For declaring a variable it includes data type, variable name and value.
 For Eg. `int cost = 20;`
 Here `int` is data type ,`cost` is variable name and `20` is value.
@@ -45,9 +45,9 @@ Example: `public void myMethodName()`
 
 
 ##### Program File Name
-Name of the program file should exactly match the class name.
+The name of the program file should exactly match the class name.
 
-:unlock:When saving the file, you should save it using the class name (Remember Java is case sensitive) and append '.java' to the end of the name (if the file name and the class name do not match, your program will not compile).
+:unlock:When saving the file, you should use the class name (Remember Java is case sensitive) and append '.java' to the end of the name (if the file name and the class name do not match, your program will not compile).
 
 :unlock:But please make a note that in case you do not have a public class present in the file then file name can be different than class name. It is also not mandatary to have a public class in the file.
 
@@ -62,7 +62,7 @@ Java program processing starts from the main() method which is a mandatary part 
 ### OOP Concept:
 ![alt text](https://stackify.com/wp-content/uploads/2017/04/java-oops-793x397.jpg)
 
-Java is an object oriented programming language. The main aim of OOP is to bind together the data and the functions that operate so that no other part of the code can access this data except that function.
+Java is an Object Oriented programming language. The main aim of OOP is to bind together the data and the functions that operate so that no other part of the code can access this data except that function.
 <dd>OOPs Concept INCLUDES: </dd>
 :sound:1)<B>Polymorphism-</B> Way to differentiate between entities with the same name efficiently.
 
@@ -71,7 +71,7 @@ Java is an object oriented programming language. The main aim of OOP is to bind 
 
 :sound:2)<B> Inheritance-</B> Mechanism by which one class can inherit the features of another class.
 
-:sound:3)<B> Object-</B> It the most basic unit of OOPs. An object consists of : 
+:sound:3)<B> Object-</B> It is the most basic unit of OOPs. An object consists of : 
  
  - State: It is represented by attributes of an object. It also reflects the properties of an object.
  
