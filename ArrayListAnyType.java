@@ -10,5 +10,12 @@ public class ArraylistPersonalized {
 
 }
 
+public void add(Object obj) {
+	arrayList.add(obj);
+}
+
+public void remove(Object obj) {
+	arrayList.remove(obj);
+}
 
 }
