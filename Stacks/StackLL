@@ -1,0 +1,96 @@
+class node
+{
+    int value;
+    node next;
+}
+public class StackLL
+{
+    node head ;
+
+
+    public void push(int val)
+    {
+        node temp = new node();
+        temp.value =val;
+        if(head==null)
+        {
+            head = temp;
+        }
+        else
+        {
+            node temp1 = new node();
+            temp1 = head;
+            while (temp1.next!=null)
+                temp1 = temp1.next;
+
+            temp1.next = temp;
+        }
+    }
+    public int peek()
+    {
+        if(head ==null)
+        {
+            System.out.println("Stack is empty");
+            return -1;
+        }
+        else
+        {
+            node temp = head;
+            while(temp.next!=null)
+            {
+                temp=temp.next;
+            }
+
+            return temp.value;
+        }
+    }
+    public int pop()
+    {
+        if (head == null)
+        {
+            System.out.println("Stack is empty");
+            return -1;
+        }
+        else
+        {
+            node temp = head;
+            while (temp.next.next!=null)
+            {
+                temp=temp.next;
+            }
+            int r =temp.next.value;
+            temp.next=null;
+            return r;
+        }
+    }
+    public void show()
+    {
+        if (head ==null)
+            System.out.println("EmptyStack");
+        else
+        {
+            node temp = head;
+            while (temp!=null)
+            {
+                System.out.println(temp.value);
+                temp=temp.next;
+            }
+        }
+    }
+
+    public static void main(String[] args)
+    {
+        StackLL stack = new StackLL();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.show();
+        System.out.println(stack.peek());
+        
+        System.out.println(stack.pop());
+        stack.show();;
+
+
+    }
+
+}
