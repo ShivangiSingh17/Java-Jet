@@ -1,0 +1,80 @@
+class Node
+{
+    int value;
+    Node next;
+}
+public class QueueLL
+{
+    Node head;
+
+    public void add(int val)
+    {
+        Node temp = new Node();
+        temp.value=val;
+        if(head==null)
+        {
+            head = temp;
+        }
+        else
+        {
+            Node it = head;
+            while(it.next!=null)
+                it=it.next;
+
+            it.next=temp;
+        }
+    }
+    public int peek()
+    {
+        if(head==null) {
+            System.out.println("Queue is empty");
+            return -1;
+        }
+        else
+        {
+            return head.value;
+        }
+    }
+    public int remove()
+    {
+        if (head==null)
+        {
+            System.out.println("Queue is empty");
+            return -1;
+        }
+        else
+        {
+            int r = head.value;
+            head=head.next;
+            return r;
+        }
+    }
+    public void show()
+    {
+        if (head ==null)
+            System.out.println("EmptyQueue");
+        else
+        {
+            Node temp = head;
+            while (temp!=null)
+            {
+                System.out.println(temp.value);
+                temp=temp.next;
+            }
+        }
+    }
+
+    /*public static void main(String[] args)
+    {
+        QueueLL queue = new QueueLL();
+        queue.add(1);
+        queue.add(2);
+        queue.add(3);
+        queue.show();
+        System.out.println(queue.peek());
+        System.out.println(queue.remove());
+        queue.show();
+
+
+    }*/
+}
