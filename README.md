@@ -2,7 +2,7 @@
 
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqe9qPKBN1TNd-HhAPNCx5_dnp8K-K4wS3mouErVI3zt-qLnKi)
 # Java
-Java is one of the most popular and widely used programming language and platform. It is fast, reliable and secure. Also java is *object-oriented programming* language. Java is *statically type language* (because the type of data is predefined as part of the programing language and all constants or variables are defined for a given program).
+Java is one of the most popular and widely used programming language and platform. It is fast, reliable and secure. Also java is *object-oriented programming* language. Java is *statically type language* (because the type of data is predefined as part of the programming language and all constants or variables are defined for a given program).
 ### Data Types:
 They are basically of two types:
 1. Primitive data type
@@ -10,7 +10,7 @@ They are basically of two types:
 
 :sound:Primitive consists of boolean, byte, char, short, int, long, float, double. Whereas Object consists of programmer created types.
 ### Variables in Java:
-A variable is the name given to a menmory location. It is the basic unit of storage in a program.
+A variable is the name given to a memory location. It is the basic unit of storage in a program.
 For declaring a variable it includes data type, variable name and value.
 For Eg. `int cost = 20;`
 Here `int` is data type ,`cost` is variable name and `20` is value.
@@ -49,12 +49,12 @@ Name of the program file should exactly match the class name.
 
 :unlock:When saving the file, you should save it using the class name (Remember Java is case sensitive) and append '.java' to the end of the name (if the file name and the class name do not match, your program will not compile).
 
-:unlock:But please make a note that in case you do not have a public class present in the file then file name can be different than class name. It is also not mandatary to have a public class in the file.
+:unlock:But please make a note that in case you do not have a public class present in the file then file name can be different than class name. It is also not mandatory to have a public class in the file.
 
 Example: Assume `'MyFirstJavaProgram'` is the class name. Then the file should be saved as `'MyFirstJavaProgram.java'`
 
 ##### public static void main(String args[]) 
-Java program processing starts from the main() method which is a mandatary part of every Java program.
+Java program processing starts from the main() method which is a mandatory part of every Java program.
 
 
 
