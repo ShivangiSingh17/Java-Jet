@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Solution {
 
 	static boolean areAnagram(char[] str1, char[] str2) {
