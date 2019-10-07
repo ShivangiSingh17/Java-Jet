@@ -234,6 +234,77 @@ The benefit of overriding is: ability to define a behavior that's specific to th
 In object-oriented terms, overriding means to override the functionality of an existing method.
 
 
+#### Inheritance in Java
+Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object. It is an important part of OOPs (Object Oriented programming system).
 
+The idea behind inheritance in Java is that you can create new classes that are built upon existing classes. When you inherit from an existing class, you can reuse methods and fields of the parent class. Moreover, you can add new methods and fields in your current class also.
+
+Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+
+for example bird and cat both are animals,they both eat and make noises but a bird also can fly. and also they both breath in the same way.
+
+so i will create a class named Animal with a method named breath,both bird and cat can use this method to breath,but they also have their own methods
+
+like fly(for birdy!) and mew for cat.
+
+Java Inheritance Syntax:
+
+        class Animal
+        {
+        
+            public void breath(){
+                        
+                        System.out.println("i am breathing now!");
+               
+               }
+            
+        
+        }
+
+here is cat:
+
+        class Cat extends Animal  
+         {  
+        
+            public void mew(){
+        
+             System.out.println("mew!");
+        
+           }
+           
+        } 
+
+and bird: 
+
+    class Bird extends Animal  
+         {  
+        
+            public void fly(){
+        
+             System.out.println("fly!");
+        
+           }
+           
+        } 
+        
+and Main:
+
+       class Life{
+       
+                public static void main(String[] args){
+                
+                        //cat
+                        Cat cat =new Cat();
+                        cat.breath();
+                        cat.mew();
+                        
+                        Bird bird=new Bird();
+                        bird.breath();
+                        bird.fly();
+                
+                }
+       
+       }
+       
 
 
