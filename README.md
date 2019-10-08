@@ -267,7 +267,7 @@ So lets discuss in detail:
 
 Instance method are methods which require an object of its class to be created before it can be called. To invoke a instance method, we have to create an Object of the class in within which it defined.
 
-Eg : 
+Example : 
 ```
 public void InstanceMethod(String name)
       {
@@ -280,7 +280,7 @@ public void InstanceMethod(String name)
 
 Static methods are the methods in Java that can be called without creating an object of class. They are referenced by the class name itself or reference to the Object of that class.
 
-Eg :  
+Example :  
 ```
 public static void staticMethod(String name)
 {
