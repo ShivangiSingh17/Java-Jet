@@ -1,4 +1,4 @@
-public class Factorial {
+public class factorialFinder {
     public static void main(String[] args) {
        Scanner scan = new Scanner(System.in);
        System.out.print("Please Input Your Number: ");
