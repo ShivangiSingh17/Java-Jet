@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class factorialFinder {
     public static void main(String[] args) {
        Scanner scan = new Scanner(System.in);
