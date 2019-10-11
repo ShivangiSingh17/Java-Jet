@@ -2,16 +2,16 @@
 
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqe9qPKBN1TNd-HhAPNCx5_dnp8K-K4wS3mouErVI3zt-qLnKi)
 # Java
-Java is one of the most popular and widely used programming language and platform. It is fast, reliable and secure. Also java is *object-oriented programming* language. Java is *statically type language* (because the type of data is predefined as part of the programing language and all constants or variables are defined for a given program).
+Java is one of the most popular and widely used programming language and platform. It is fast, reliable and secure. Also java is *object-oriented programming* language. Java is *static type language* (because the type of data is predefined as part of the programming language and all constants or variables are defined for a given program).
 ### Data Types:
 They are basically of two types:
 1. Primitive data type
 1. Object data type
 
-:sound:Primitive consists of boolean, byte, char, short, int, long, float, double. Whereas Object consists of programmer created types.
+:sound:Primitive consists of boolean, byte, char, short, int, long, float, double. Whereas Object consists of user defined program types.
 ### Variables in Java:
-A variable is the name given to a menmory location. It is the basic unit of storage in a program.
-For declaring a variable it includes data type, variable name and value.
+A variable is the name given to a memory location. It is the basic unit of storage.
+For declaring a variable we require the following parameters: data type, variable name and value.
 For Eg. `int cost = 20;`
 Here `int` is data type ,`cost` is variable name and `20` is value.
 ### Java Identifiers:
@@ -19,16 +19,16 @@ In Java, an identifier can be a class name, method name, variable name or a labe
 
 1. Only alphanumeric characters are allowed as identifiers i.e. [A-Z], [a-z], [0-9] and '$', '_'.
 
-1. Identifiers should not start with digit[0-9].
+2. Identifiers should not start with digit[0-9].
 
-1. Special characters like @ and & are also not allowed.
+3. Special characters like @ and & are also not allowed.
 
-1. [*Reserved words*](https://www.computerhope.com/jargon/j/java_reserved_words.htm) can't be used.
+4. [*Reserved words*](https://www.computerhope.com/jargon/j/java_reserved_words.htm) can't be used.
 
 Here is the first java program-[*Hello World*](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/HelloWorld.java)
 
 #### Basic Syntax in Java:
-About Java programs, there are some very important rules to keep in mind they are as follows:
+About Java programs, there are some very important rules to keep in mind which are as follows:
 
 ##### Case Sensitivity 
 Java is case sensitive, which means identifier Hello and hello would have different meaning in Java.
