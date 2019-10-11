@@ -16,7 +16,7 @@ char charArray[];
 
 MyClass myClassArray[]; 
 
-Object[]  ao,        // array of Object
+Object[]  ao;        // array of Object
 Collection[] ca;  // array of Collection of unknown type
 
                    
