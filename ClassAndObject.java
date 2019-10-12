@@ -20,10 +20,10 @@ class Lamp {
 }
 
 
-class ClassObjectsExample {
+public class ClassObjectsExample {
 public static void main(String[] args) {
    
-   Lamp l1 = new switch(), l2 = new switch();
+   Lamp l1 = new Lamp(), l2 = new Lamp();
    
    l1.turnOn();
    l2.turnOff();
