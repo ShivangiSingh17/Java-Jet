@@ -30,10 +30,20 @@ public class Sum {
 	// Driver code 
 	public static void main(String args[]) 
 	{ 
+		InputStreamReader reader = new InputStreamReader(System.in);
+		BufferedReader br = new BufferedReader(reader);
+		System.out.println("Enter number 1");
+		String n1 = Integer.parseInt();
+		
+		System.out.println("Enter number 2");
+		String n2 =Double.parseDouble();
+		
+		System.out.println("Enter number 3");
+		String n3 = Double.parseDouble();
 		Sum s = new Sum(); 
-		System.out.println(s.sum(10, 20)); 
-		System.out.println(s.sum(10, 20, 30)); 
-		System.out.println(s.sum(10.5, 20.5)); 
+		System.out.println(s.sum(n1, n2)); 
+		System.out.println(s.sum(n1, n2, n3)); 
+		System.out.println(s.sum(n2, n3)); 
 	} 
 } 
 
