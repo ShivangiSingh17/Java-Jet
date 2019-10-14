@@ -25,6 +25,8 @@ In Java, an identifier can be a class name, method name, variable name or a labe
 
 1. [*Reserved words*](https://www.computerhope.com/jargon/j/java_reserved_words.htm) can't be used.
 
+1. Identifier must not contain any blank spaces in between.
+
 Here is the first java program-[*Hello World*](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/HelloWorld.java)
 
 #### Basic Syntax in Java:
@@ -102,7 +104,7 @@ Example of Class and Object together is [here](https://github.com/ShivangiSingh1
 ![alt text](https://s3.amazonaws.com/lowres.cartoonstock.com/science-human_cloning-clones-genetic_engineering-cartoon--cgrn5_low.jpg)
 
 Cloning basically means creating a exact copy of an object. The clone() method of Object class is used to clone an object.
-The java.lang. Cloneable interface must be implemented by the class whose object clone we want to create. Else clone() method generates CloneNotSupportedException.
+The java.lang. Cloneable interface must be implemented by the class whose object clone is to be created. Else clone() method generates CloneNotSupportedException.
 
 Syntax of the clone() method: 
 java
