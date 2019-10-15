@@ -15,6 +15,5 @@ class Methods{
 
 		System.out.println("The method is executed successfully");
 
-
 	}
 }
