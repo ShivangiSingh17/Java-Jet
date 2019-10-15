@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ClassObjectsExample",
+            "request": "launch",
+            "mainClass": "ClassObjectsExample",
+            "projectName": "Java-Jet_20a8a655"
+        }
+    ]
+}
