@@ -233,7 +233,64 @@ The benefit of overriding is: ability to define a behavior that's specific to th
 
 In object-oriented terms, overriding means to override the functionality of an existing method.
 
+#### Methods:
+Methods are group of statements that are grouped together to perform a operation and return a result to the caller. A method can perform some specific task without returning anything. Methods allow us to reuse the code without retyping the code. In Java, every method must be part of some class which is different from languages like C, C++, and Python.
 
+- Syntax : 
+ ```       
+ returnType methodName(dataType param1 , dataType param2)
+ {
+    return some Value;
+        
+ }
+ ```
+ 
+- Calling a method:
+```
+type var = methodName(argument1 ,argument2);
+```
+       
+  * returnType and Type of Variable must match.
+  * A method can be called multiple times.
+ 
 
+There are two types of methods:
+
+1. Instance Methods
+2. Static Methods.
+
+A class can have one of them or both of them.
+
+So lets discuss in detail:
+
+1.  Instance Methods:
+
+Instance method are methods which require an object of its class to be created before it can be called. To invoke a instance method, we have to create an Object of the class in within which it defined.
+
+Example : 
+```
+public void InstanceMethod(String name)
+      {
+       // code to be executed....
+      }
+      // Return type can be int, float String or user defined data type.
+```
+
+2. Static Methods:
+
+Static methods are the methods in Java that can be called without creating an object of class. They are referenced by the class name itself or reference to the Object of that class.
+
+Example :  
+```
+public static void staticMethod(String name)
+{
+  // code to be executed....
+}
+
+// Must have static modifier in their declaration.
+// Return type can be int, float, String or user defined data type.
+```
+
+  
 
 
