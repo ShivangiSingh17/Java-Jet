@@ -1,0 +1,17 @@
+#include <stdio.h> 
+#include <limits.h> 
+int main() 
+{ 
+    int start = INT_MAX, end = INT_MAX; 
+    printf("start = %dn", start); 
+    printf("end = %dn", end); 
+  
+    // method 1 
+    int mid1 = (start + end) / 2; 
+    printf("mid using (start + end)/2 = %dn", mid1); 
+  
+    // method 2 
+    int mid2 = start + (end - start) / 2; 
+    printf("mid using start + (end - start)/2 = %dn", mid2); 
+    return 0; 
+} 
