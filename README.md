@@ -10,14 +10,14 @@ They are basically of two types:
 
 :sound:Primitive consists of boolean, byte, char, short, int, long, float, double. Whereas Object consists of programmer created types.
 ### Variables in Java:
-A variable is the name given to a menmory location. It is the basic unit of storage in a program.
+A variable is the name given to a memory location. It is the basic unit of storage in a program.
 For declaring a variable it includes data type, variable name and value.
 For Eg. `int cost = 20;`
 Here `int` is data type ,`cost` is variable name and `20` is value.
 ### Java Identifiers:
 In Java, an identifier can be a class name, method name, variable name or a label. There are certain rules to define java identifiers:
 
-1. Only alphanumeric characters are allowed as identifiers i.e. [A-Z], [a-z], [0-9] and '$', '_'.
+1. Only alphanumeric characters are allowed as identifiers i.e. [A-Z], [a-z], [0-9], '$', and '_'.
 
 1. Identifiers should not start with digit[0-9].
 
@@ -110,7 +110,7 @@ protected Object clone() throws CloneNotSupportedException
     
 The clone() method is defined in the Object class.
 #### *Why do we need this clone() method??*
-This clone() method saves the extra prosessing task for creating the exact copy of an object. If we perform it by using the new keyword, it will take a lot of time that is why we use object cloning. 
+This clone() method saves the extra processing task for creating the exact copy of an object. If we perform it by using the new keyword, it will take a lot of time that is why we use object cloning. 
 Example of clone() method is [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class%20and%20Objects.java).
   
 ### Java.lang.StringBuffer.appendCodePoint() Method *{RARELY USED}*
