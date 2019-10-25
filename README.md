@@ -49,12 +49,12 @@ Name of the program file should exactly match the class name.
 
 :unlock:When saving the file, you should save it using the class name (Remember Java is case sensitive) and append '.java' to the end of the name (if the file name and the class name do not match, your program will not compile).
 
-:unlock:But please make a note that in case you do not have a public class present in the file then file name can be different than class name. It is also not mandatary to have a public class in the file.
+:unlock:But please make a note that in case you do not have a public class present in the file then file name can be different than class name. It is also not mandatory to have a public class in the file.
 
 Example: Assume `'MyFirstJavaProgram'` is the class name. Then the file should be saved as `'MyFirstJavaProgram.java'`
 
 ##### public static void main(String args[]) 
-Java program processing starts from the main() method which is a mandatary part of every Java program.
+Java program processing starts from the main() method which is a mandatory part of every Java program.
 
 
 
@@ -110,7 +110,7 @@ protected Object clone() throws CloneNotSupportedException
     
 The clone() method is defined in the Object class.
 #### *Why do we need this clone() method??*
-This clone() method saves the extra prosessing task for creating the exact copy of an object. If we perform it by using the new keyword, it will take a lot of time that is why we use object cloning. 
+This clone() method saves the extra processing task for creating the exact copy of an object. If we perform it by using the new keyword, it will take a lot of time that is why we use object cloning. 
 Example of clone() method is [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class%20and%20Objects.java).
   
 ### Java.lang.StringBuffer.appendCodePoint() Method *{RARELY USED}*
