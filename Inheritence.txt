@@ -1,0 +1,71 @@
+Inheritance
+Another object-oriented mechanism that enables to build over an existing feature is an inheritance. Composition and inheritance play a complementary role in code reuse and extension. The former enables 'has-a/part-of' kind of extension while the latter enables 'is-a/hierarchical' kind of extension.
+
+Inheritance can be defined as the process where one class acquires the properties (methods and attributes) of another. With the use of inheritance, the information is made manageable in a hierarchical order. The class which inherits the properties of other is known as subclass (derived class, child class) and the class whose properties are inherited is known as superclass (base class, parent class).
+
+The idea of inheritance is simple but powerful: When you want to create a new class and there is already a class that includes some of the features that you want, you can derive your new class from the existing class. In doing so, you can reuse the attributes and methods of the existing class without having to write (and debug!) them yourself.
+
+A subclass inherits all the public and protected members (attributes, methods, and nested classes) from its superclass. It cannot inherit private members. You can use the inherited members as is, replace them, hide them, or supplement them with new members.
+
+Extending a Class
+We will now extend the Point class to represent a 3-dim Point which includes z-coordinate. For example (2,-3,5) denotes a point in 3D Euclidean space.
+
+The x and y coordinates defined in Point class cannot be accessed from Point3D since they are 'private'.
+To access them, the access specifier needs to be changed from 'private' to 'protected'. A 'protected' member can be accessed from both the class and the subclass. So first, change them and recompile Point class before you get started with extending it.
+Point3D will now derive x and y attributes from Point class. In addition, it also adds a new attribute z.
+The Point3D class, with getter and setter, can be defined as follows. Note the extends keyword in the class definition.
+
+  public class Point3D extends Point {
+    protected int z;      // z-coordinate
+
+    public void setZ(int zCoord) {
+      this.z = zCoord;
+    }
+
+    public int getZ() {
+      return this.z;
+    }
+  }
+The driver class can now instantiate, set and get both Point and Point3D in the same manner.
+
+  Point3D p = new Point3D();
+
+  p3.setX(2);      // Calling method from parent class
+  p3.setY(-3);     //              -do-
+  p3.setZ(4);      // Calling method from this class
+
+  System.out.println( "(" + p3.getX() + "," + p3.getY() + "," + p3.getZ() + ")" );
+Calling a superclass method can be done in the same fashion as if they were part of the subclass definition. You can notice p3.getX() is accessible.
+
+Since almost all the methods in the Point class are public they are visible from Point3D. The only private method in Point, namely abs() can be useful to compute the distance between two Point3D objects. Hence, make it 'protected'.
+
+In summary, when you extend a class
+
+You can add new features by defining new attributes and methods - just like how we added z, getZ() and setZ().
+You can use the existing features as if they belong to the extended class, provided they are declared protected or public - just like how we accessed getX() and getY().
+You can override any feature of the superclass by defining another method with the same name and same signature. This is discussed in the next section.
+Note: When you instantiate Point3D, the constructor of Point will be invoked first followed by the constructor of Point3D.
+
+Composition vs. Inheritance
+Let's say we defined the Point3D class in the 'composition' way. Let's call this Point3DC.
+
+  class Point3DC {
+    private Point p2d;
+    private int z;
+
+    Point3DC(int xInit, int yInit, int zInit) {
+      p2d = new Point(xInit, yInit);
+      this.z = zInit;
+    }
+
+    public int getZ() {
+      return this.z;
+    }
+  }
+The test driver would be as follows. Note the difference in the way z is accessed compared to x and y.
+
+  Point3DC p3dc = new Point3DC(3,-5,8);
+  int xCoord = p3dc.p2d.getX(); 
+  int yCoord = p3dc.p2d.getY();
+  int zCoord = p3ds.getZ();
+That is the fundamental difference between composition and inheritance. As noted above, when the relationship is of the kind 'has-a or part-of', use composition. If the relationship is of the kind 'is-a or child-of', use inheritance. Other types of relationships are possible. For example, two or more classes may share a sibling kind of relationship. This will be dealt a little later.
