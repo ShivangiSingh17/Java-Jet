@@ -54,7 +54,7 @@ In Java, the name of the program file should exactly match the class name.
 Example: Assume `'MyFirstJavaProgram'` is the class name. Then the file should be saved as `'MyFirstJavaProgram.java'`
 
 ##### public static void main(String args[]) 
-Java program processing starts from the `main()` method which is a mandatary part of every Java program.
+Java program processing starts from the `main()` method which is a mandatory part of every Java program.
 
 
 
